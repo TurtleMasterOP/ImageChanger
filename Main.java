@@ -18,12 +18,34 @@ public class Main{
                 Shrink.shrink("input.jpg", value1);
                 break;
             }
-            if (args[index].compareTo("gs") == 0){
+            else if (args[index].compareTo("greyscale") == 0){
 
                 value1 = Integer.parseInt(args[index + 1]);
                 value2 = Integer.parseInt(args[index + 2]);
                 value3 = Integer.parseInt(args[index + 3]);
                 GreyScale.greyScale("input.jpg", value1, value2, value3);
+                break;
+            }
+            else if (args[index].compareTo("grow") == 0){
+
+                value1 = Integer.parseInt(args[index + 1]);
+                Grow.grow("input.jpg", value1);
+                break;
+            }
+            else if (args[index].compareTo("simplegrow") == 0){
+
+                value1 = Integer.parseInt(args[index + 1]);
+                SimpleGrow.simpleGrow("input.jpg", value1);
+                break;
+            }
+            else if (args[index].compareTo("pallette") == 0){
+
+                value1 = Integer.parseInt(args[index + 1]);
+                value2 = Integer.parseInt(args[index + 2]);
+                Pallette.pallette("input.jpg", value1, value2);
+                break;
+            }
+            else{
                 break;
             }
 
