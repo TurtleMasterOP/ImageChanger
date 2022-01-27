@@ -7,3 +7,4 @@ GreyScale: & 'C:\Program Files\OpenJDK\openjdk-11.0.13_8\bin\java.exe' '-cp' 'C:
 Shrink: & 'C:\Program Files\OpenJDK\openjdk-11.0.13_8\bin\java.exe' '-cp' 'C:\Users\lukas\Desktop\ImageChanger\bin' 'Main' 'shrink' '****YOUR NUMBER****'
 SimpleGrow: & 'C:\Program Files\OpenJDK\openjdk-11.0.13_8\bin\java.exe' '-cp' 'C:\Users\lukas\Desktop\ImageChanger\bin' 'Main' 'simplegrow' '****YOUR NUMBER****'
 Pallette: & 'C:\Program Files\OpenJDK\openjdk-11.0.13_8\bin\java.exe' '-cp' 'C:\Users\lukas\Desktop\ImageChanger\bin' 'Main' 'pallette' '****YOUR NUMBER****' '****YOUR NUMBER****'
+Grow: & 'C:\Program Files\OpenJDK\openjdk-11.0.13_8\bin\java.exe' '-cp' 'C:\Users\lukas\Desktop\ImageChanger\bin' 'Main' 'grow' '****YOUR NUMBER****'
